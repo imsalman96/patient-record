@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_path"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.patientrecord.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_patientCreateFragment"
+            app:destination="@id/patientCreateFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_patientDetailsFragment"
+            app:destination="@id/patientDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/patientCreateFragment"
+        android:name="com.example.patientrecord.fragments.PatientCreateFragment"
+        android:label="fragment_patient_create"
+        tools:layout="@layout/fragment_patient_create" />
+    <fragment
+        android:id="@+id/patientDetailsFragment"
+        android:name="com.example.patientrecord.fragments.PatientDetailsFragment"
+        android:label="fragment_patient_details"
+        tools:layout="@layout/fragment_patient_details" >
+        <argument
+            android:name="patient"
+            app:argType="com.example.patientrecord.data.Patient" />
+        <action
+            android:id="@+id/action_patientDetailsFragment_to_patientUpdateFragment"
+            app:destination="@id/patientUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/patientUpdateFragment"
+        android:name="com.example.patientrecord.fragments.PatientUpdateFragment"
+        android:label="fragment_patient_update"
+        tools:layout="@layout/fragment_patient_update" >
+        <argument
+            android:name="update"
+            app:argType="com.example.patientrecord.data.Patient" />
+    </fragment>
+</navigation>

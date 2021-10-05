@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/drawable-v24/ic_bag.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/drawable-v24/ic_camera_black.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/drawable-v24/ic_mail.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/drawable-v24/ic_plus.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/drawable-v24/ic_user.xml" value="0.24871794871794872" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/drawable/ic_add.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/activity_camera.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/fragment_patient_create.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/fragment_patient_details.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/fragment_patient_update.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/layout/item_patient_list.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/salman/AndroidStudioProjects/PatientRecord/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
